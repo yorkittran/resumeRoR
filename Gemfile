@@ -52,3 +52,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Provides a better error page for Rails and other Rack apps
+gem 'better_errors', '~> 2.1', '>= 2.1.1'
